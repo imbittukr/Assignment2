@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    
+    
+}
+/* .first_section css code start */
+.first_section{
+    background-color: rgba(132, 139, 139,0.6);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first_container{
+    /* background-color: brown; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.box1{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.element{
+    width: 15%;
+    background-color: rgb(224, 224, 59);
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(43, 41, 41);;
+}
+.element h3{
+    font-size: 40px;
+}
+
+/* .first_section end */
+.second_section{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.second_container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.box2{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgba(132, 139, 139,0.6);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ele{
+    width: 20%;
+    background-color: tomato;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.ele h3{
+    font-size: 40px;
+    /* color: gray; */
+}
